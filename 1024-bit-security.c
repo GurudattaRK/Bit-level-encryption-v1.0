@@ -267,7 +267,7 @@ int main()
             fwrite(row_data_bit,128,1,writer);
             /*encryption stuff ends here*/
         }
-        jump: 
+        
         fclose(reader);
         fclose(writer);
         end = clock();
