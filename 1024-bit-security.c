@@ -290,7 +290,7 @@ int main()
         scanf("%s",unlockedfile);
 
         FILE *reader = fopen(lockedfile,"rb");
-        FILE *keyreader = fopen(keyfile,"r");
+        FILE *keyreader = fopen(keyfile,"rb");
 
         if(reader==NULL){
             printf("\nError in opening/finding the file %s",lockedfile);
